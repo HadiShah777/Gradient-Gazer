@@ -31,7 +31,7 @@ const handleButton2=()=>{
 btn1.addEventListener("click", handleButton1)//will occur only on click..
 btn2.addEventListener("click", handleButton2)//will occur only on click..
 
-copyDiv.addEventListener("onmouseover", ()=>{
+copyDiv.addEventListener("mouseenter", ()=>{
     navigator.clipboard.writeText(copyDiv.innerHTML);//helps to copy code directly...
     confirm('code copied');//for letting know if the code is copied  *NOT NECESSARY*
 })
