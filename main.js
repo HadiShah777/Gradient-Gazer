@@ -17,7 +17,7 @@ const handleButton1=()=>{
     rgb1= hexValues();//calling hexValues NOTE: arrow function must define before calling
     console.log(rgb1);//not necessary
     document.body.style.backgroundImage = `linear-gradient(to right,${rgb1},${rgb2})`;//major implementation *Changing background*
-    copyDiv.innerHTML = `background: linear-gradient(to right,${rgb1},${rgb2})`;//changing bg code for :) 
+    copyDiv.innerHTML = `background: linear-gradient(to right,${rgb1},${rgb2});`;//changing bg code for :) 
     btn1.innerHTML = rgb1//changing text of button
 }
 const handleButton2=()=>{
